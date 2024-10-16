@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- The table will need color, thickness and line type -->
+
+    <style>
+
+        h2{
+            color: #38003c;
+            
+        }
+
+        .pl-table{
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            border-radius: 10px 10px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        #tr0{
+            background-color: #38003c;
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .pl-table th,
+        .pl-table td{
+            padding: 12px 15px;
+        }
+
+        .pl-table tr{
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .pl-table tr:nth-of-type(odd){
+            background-color: #f3f3f3;
+        }
+
+        .pl-table tr:last-of-type{
+            border-bottom: 2px solid #38003c;
+        }
+
+        #tr2{
+            font-weight: bold;
+            color: #38003c;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h2>Premier League Table</h2>
+
+    <table class="pl-table">
+
+        <tr id="tr0">
+            <th>Rank</th>
+            <th>Team</th>
+            <th>Points</th>
+            <th>Last Result</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Arsenal</td>
+            <td>90</td>
+            <td>Win</td>
+        </tr>
+
+        <tr id="tr2">
+            <td>2</td>
+            <td>Man city</td>
+            <td>87</td>
+            <td>Draw</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Liverpool</td>
+            <td>85</td>
+            <td>Draw</td>
+        </tr>
+
+    </table>
+
+
+
+
+</body>
+</html>
