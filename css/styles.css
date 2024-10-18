@@ -1,0 +1,15 @@
+.jscls {
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background: #dddddd;
+    cursor: pointer;
+}
+
+.jscls:hover {
+    background-color: aquamarine;
+}
