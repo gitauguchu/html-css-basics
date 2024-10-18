@@ -6,10 +6,10 @@
     border-radius: 1em;
     border: none;
     outline: none;
-    background: #dddddd;
+    background: aquamarine;
     cursor: pointer;
 }
 
 .jscls:hover {
-    background-color: aquamarine;
+    background-color: #dddddd;
 }
